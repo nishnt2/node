@@ -14,11 +14,20 @@ const fs = require('fs');
 
 //Async
 //it expects a callback function where we get the result of execution
-fs.readFile('./dummy.txt', 'utf-8', (err, result) => {
-  if (err) console.log(err);
-  else console.log(result);
-});
+// fs.readFile('./dummy.txt', 'utf-8', (err, result) => {
+//   if (err) console.log(err);
+//   else console.log(result);
+// });
 
 // fs.appendFile
 // fs.appendFileSync
 //appends the data in file rather than overriding existing data.
+
+// fs.cpSync("parent file pathname",'copy pathname')
+// creates a copy of a file
+
+// fs.unlinkSync()
+//deletes a file
+
+// fs.statSync('file pathname')
+//returns stats of the file
