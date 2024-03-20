@@ -2,7 +2,7 @@
   "name": "node",
   "version": "1.0.0",
   "description": "A repo for nodejs practice",
-  "main": "/server/index.js",
+  "main": "server/index.js",
   "scripts": {
     "start": "node index"
   },
